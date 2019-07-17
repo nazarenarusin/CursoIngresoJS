@@ -6,7 +6,9 @@ function mostrar()
 	{
 		contador=contador+1;
 
-		alert(contador);
+		//alert(contador);
+
+		console.log(contador);
 
 	}
 

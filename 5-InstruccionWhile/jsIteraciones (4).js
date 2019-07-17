@@ -1,15 +1,15 @@
 function mostrar()
 {
 
-	var numero = prompt("ingrese un número entre 0 y 9.");
+	var numero = prompt("ingrese un número entre 0 y 10");
 
 	numero = parseInt(numero);
 
-	while (numero < 0 || numero >9) {
+	while (numero < 0 || numero >10) {
 
- 		alert("No ingresó un número entre 0 y 9, inténtelo nuevamente.");
+ 		alert("No ingresó un número entre 0 y 10, inténtelo nuevamente.");
 
-  		var numero = prompt("Ingrese un número entre 0 y 9 y presione aceptar.");
+  		 numero = prompt("Ingrese un número entre 0 y 10 y presione aceptar.");
 
   		numero = parseInt(numero);
 	}

@@ -6,7 +6,8 @@ function mostrar()
 	while(contador>1)
 	{
 		contador=contador-1;
-		alert(contador);
+		//alert(contador);
+		console.log(contador);
 	}
 
 

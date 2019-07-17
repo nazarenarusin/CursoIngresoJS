@@ -4,6 +4,15 @@ function mostrar()
 var sexo = prompt("ingrese f ó m .");
 
 
+while(sexo!="f" && sexo!="m" && sexo!="F" && sexo!="M")
+{
+    alert("Error, por favor ingrese un sexo valido");
+
+    sexo=prompt("ingrese f ó m .");
+
+}
+
+
 
 document.getElementById('Sexo').value=sexo;
 
