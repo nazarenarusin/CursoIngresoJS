@@ -3,12 +3,12 @@ function mostrar()
 
 	var contador=0;
 	var acumulador=0;
-	var promedio;
+	var numero;
 
 	while(contador<5)
 	{
-		acumulador=prompt("Por favor ingrese un numero");
-		acumulador=parseInt(acumulador);
+		numero=parseInt(prompt("Por favor ingrese un numero"));
+		acumulador=numero+acumulador;
 		contador++;
 	}
 
