@@ -32,9 +32,26 @@ function Circulo ()
     ancho=parseInt(document.getElementById("Ancho").value);
     radio=parseInt(document.getElementById("Radio").value);
 
-    radio=
+    alambre=2 * 3.14 * radio;
+
+    alert("Usted necesitara "+alambre.toFixed(2)+" metro de alambre");
 }
 function Materiales () 
 {
-	
+    var largo;
+    var ancho;
+    var cal;
+    var cemento;
+    var superficie;
+
+    largo=parseInt(document.getElementById("Largo").value);
+    ancho=parseInt(document.getElementById("Ancho").value);
+
+    superficie=largo*ancho;
+
+    cal= superficie*3;
+
+    cemento=superficie*2;
+
+    Alert("Se necesitan " + superficie + "m2" + " bolsas de cemento " + cemento + " bolsas de cal " + cal);
 }
