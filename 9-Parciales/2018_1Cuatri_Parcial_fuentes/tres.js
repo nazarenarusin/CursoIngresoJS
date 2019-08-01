@@ -2,16 +2,12 @@ function mostrar()
 {
 var precio;
 var descuento;
-var resultado;
+var precioFinal;
 
-precio=prompt("Ingrese el precio");
-precio=parseInt(precio);
+precio=parseInt(prompt("Ingrese el precio"));
+descuento=parseInt(prompt("Ingrese el descuento"));
 
-descuento=prompt("Ingrese el descuento");
-descuento=parseInt(descuento);
+precioFinal=(precio-descuento)/100;
 
-resultado=precio-(precio*descuento/100);
-
-document.getElementById("elPrecioFinal").value=resultado;
-
+document.getElementById("elPrecioFinal").value=precioFinal;
 }
